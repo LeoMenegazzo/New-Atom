@@ -1,0 +1,369 @@
+/****Responsivo da página****/
+
+@media screen and (max-width: 992px) {
+    .banner-new .conteudo h1 {
+        font-size: 35px;
+    }
+    header .btn-header {
+        display: none;
+    }
+    .logo img{
+        display: block;
+        height: 50px;
+        width: auto;
+    }
+    .banner-new .conteudo p {
+        font-size: 14px;
+    }
+    .wq-btn-new {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .banner-new {
+        height: auto;
+        padding: 50px 0 120px;
+        background-size: 60%;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        background: #fff;
+        border-radius: 5px;
+    }
+    .dropdown-menu, .dropdown:hover .dropdown-menu ul{
+        background-color: #f9fafc;
+    }
+    .banner-new .wq-detalhe{
+        display: none;
+    }
+    
+    .wq-titulo-new h2 {
+        font-size: 25px!important;
+        text-align: center;
+    }
+    .wq-sites-apresentacao-item figure img {
+        height: 85px;
+    }
+    .wq-funcionalidades-item figure img {
+        height: 75px;
+    }
+    .wq-titulo-new span {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .wq-funcionalidades-item p {
+        line-height: 1.3em;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .wq-titulo-new {
+        margin-bottom: 45px;
+        width: 100%;
+    }
+    .wq-titulo-new p{
+        line-height: 1.3;
+        font-size: 15px;
+    }
+    .faq-accordion h2 {
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    .row > div{
+        margin-bottom: 30px;
+    }
+    .row > div:last-child{
+        margin-bottom: 0;
+    }
+    .wq-footer-top .wq-logo_menu,
+    .wq-footer-top .wq-midias-sociais {
+        justify-content: flex-start;
+    }
+    .wq-footer-bottom p a{
+        font-size: 14px;
+    }
+    .wq-criacao-de-sites .conteudo {
+        padding: 25px;
+    }
+    .faq-accordion h2 {
+        padding: 20px 67px 20px 20px;
+    }
+    .faq-accordion .card-body{
+        padding: 0px 20px 20px 20px;
+    }
+    .banner-new-interno .conteudo h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .wq-titulo-new-02 h1, .wq-titulo-new-02 h2 {
+        font-size: 30px;
+        padding: 5px 0;
+    }
+    .wq-titulo-new-02 p {
+        font-size: 13px;
+        width: 100%;
+        max-width: 100%;
+        line-height: 1.3;
+    }
+    .wq-site-rapido-01 .wq-conteudo h2{
+        font-size: 19px;
+    }
+    .wq-site-rapido-01 .wq-conteudo ul li h4 {
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .wq-site-rapido-01 .wq-conteudo ul li {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        gap: 10px;
+    }
+    .wq-site-rapido-item-02 {
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px 10px 10px 10px;
+        grid-template-columns: 40px 1fr;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .wq-site-rapido-item-02 h3 {
+        font-size: 16px;
+    }
+    .wq-modelos-sites{
+        padding: 0!important;
+    }
+    .wq-sites-categorias li a {
+        padding: 7px 10px 7px 10px;
+        font-size: 10px;
+    }
+    .wq-preco-site .wq-conteudo ul {
+        grid-template-columns: 1fr;
+    }
+    .content-preco{
+        margin-right: 0;
+        padding: 25px 0;
+    }
+    .wq-preco-site{
+        padding-bottom: 0!important;
+    }
+    .wq-estatistica-new-item h2 {
+        font-size: 80px;
+    }
+    .wq-preco-site .wq-titulo-new-02 {
+        margin: 40px 0;
+    }
+    .wq-carousel-depoimentos-item .wq-comentario{
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+    .wq-passo-a-passo .wq-passo-a-passo-item .wq-titulo-new h2{
+        text-align: left;
+    }
+    .banner-new-interno-02 h1 {
+        font-size: 31px;
+        width: 100%!important;
+    }
+    .banner-new-interno-02 .conteudo{
+        padding-right: 0;
+    }
+    .wq-detalhe-plataforma-item {
+        grid-template-columns: 1fr;
+    }
+    .wq-detalhe-plataforma-item figure img {
+        width: auto;
+        height: 70px;
+    }
+    .wq-planos-item-header h2 {
+        font-size: 22px;
+    }
+    .wq-planos-item-body h3 {
+        font-size: 25px;
+    }
+    .wq-vendas-online .wq-conteudo{
+        padding: 30px;
+    }
+    .wq-vendas-online .wq-conteudo h2 {
+        font-size: 25px;
+    }
+    .banner-new-interno-02 h4 {
+        font-size: 16px;
+    }
+    .banner-new-interno-02 ul li {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .wq-seo-numeros-item {
+        padding: 25px;
+    }
+    .wq-seo-numeros-item h2 {
+        font-size: 65px;
+    }
+    .wq-seo-consultoria .col-xl-6 > figure{
+        padding-right: 0;
+    }
+
+    .wq-titulo-sec h3 {
+        font-size: 30px;
+    }   
+
+    .wq-titulo-sec h6 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .wq-cta-seo form .wq-inputs {
+        grid-template-columns: 1fr;
+        width: 100%;;
+    }
+    .wq-cta-seo form button {
+        font-size: 13px;
+        padding: 13px 15px;
+    }
+    .wq-cases-de-sucesso{
+        background-image: none!important;
+    }
+
+    .header_fixo{
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        box-shadow: none;
+        animation: none;
+        z-index: 99;
+    }
+    .header_fixo + section{
+        margin-top: 0px;
+    }
+}
+
+
+/***** Tamanho para smartphones na vertical *****/
+
+@media screen and (max-width: 576px) {
+    .banner-new-interno .conteudo p {
+        width: 100%;
+        max-width: 100%;
+    }
+    .wq-titulo-new-02 h2 span{
+        display: none;
+    }
+    .banner-new-interno-02 form button.wq-btn-new,.wq-otimizacao-seo form button{
+        font-size: 10px;
+    }
+    .banner-new-interno-02.wq-type2 .wq-inputs {
+        grid-template-columns: 1fr;
+    }
+    .wq-otimizacao-seo .wq-inputs {
+        grid-template-columns: 1fr;
+    }
+    
+    .wq-cta-seo form .wq-inputs {
+        grid-template-columns: 1fr;
+        width: 100%;;
+    }
+}
+
+
+/***** Tamanho para smartphones na horizontal *****/
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .banner-new {
+        background-size: 80%;
+    }
+    .banner-new-interno .conteudo p {
+        width: 100%;
+        max-width: 100%;
+    }
+    .wq-titulo-new-02 h2 span{
+        display: none;
+    }
+    .banner-new-interno-02.wq-type2 .wq-inputs {
+        grid-template-columns: 1fr;
+    }
+    .wq-otimizacao-seo .wq-inputs {
+        grid-template-columns: 1fr;
+    }
+    .wq-cases-de-sucesso{
+        background-image: none!important;
+    }
+    .wq-cta-seo form .wq-inputs {
+        grid-template-columns: 1fr;
+        width: 100%;;
+    }
+    .wq-cta-seo form .wq-inputs {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/***** Tamanho para tablets na vertical *****/
+
+@media screen and (max-width: 1099px) and (min-width: 769px) {
+    .banner-new {
+        background-size: 80%;
+    }
+    .wq-otimizacao-seo .wq-inputs {
+        grid-template-columns: 1fr 1fr;
+    }
+    .wq-cta-seo form .wq-inputs {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/***** Tamanho para tablets na horizontal *****/
+
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
+    .nav-link, .dropdown-toggle, .dropdown-item {
+        padding: 10px 10px!important;
+    }
+    .banner-new .conteudo h1 {
+        font-size: 40px;
+    }
+    .btn-header{
+        font-size: 13px;
+    }
+    .banner-new {
+        height: auto;
+        padding: 50px 0px 120px;
+        background-size: 100%;
+    }
+}
+
+
+/***** Monitores pequenos  *****/
+
+@media screen and (max-width: 1299px) and (min-width: 992px) {
+    .nav-link, .dropdown-toggle, .dropdown-item {
+        padding: 10px 10px!important;
+    }
+    .banner-new .conteudo h1 {
+        font-size: 40px;
+    }
+    .btn-header{
+        font-size: 13px;
+    }
+    .banner-new {
+        height: auto;
+        padding: 50px 0px 120px;
+        background-size: 70%;
+    }
+}
+
+
+/***** Monitores medios  *****/
+
+@media screen and (max-width: 1499px) and (min-width: 1300px) {}
+
+
+/***** Monitores extra grandes  *****/
+
+@media screen and (max-width: 1699px) and (min-width: 1500px) {}
+
+
+/***** Monitores extra grandes  *****/
+
+@media screen and (max-width: 2500px) and (min-width: 1920px) {}
+
+@media screen and (max-width: 3000px) and (min-width: 2500px) {}
+
+
+/****Responsivo da página****/
