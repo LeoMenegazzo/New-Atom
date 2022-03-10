@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap');
-
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'geo-wf', sans-serif;
     text-rendering: optimizeLegibility;
     font-weight: 400;
     letter-spacing: .5px;
@@ -21,11 +19,11 @@ p {
 }
 
 h1,h2,h3,h4,h5,h6,a{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'geo-wf', sans-serif;
 }
 
 .container{
-    max-width: 1250px;
+    max-width: 1200px;
 }
 
 ::-webkit-scrollbar {
@@ -54,6 +52,8 @@ h1,h2,h3,h4,h5,h6,a{
 /******HEADER******/
 header{
     background-color: #f9fafc;
+    position: relative;
+    z-index: 999;
 }
 
 .nav-item {
@@ -829,7 +829,7 @@ header{
     font-weight: 700;
     color: #4a2a74;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 15px;
 }
 .wq-footer-cta p {
@@ -1092,7 +1092,7 @@ header{
     left: 0;
     top: 0;
     width: 100%;
-    box-shadow: 0px 10px 10px -5px rgb(0 0 0 / 35%);
+    box-shadow: 0px 10px 10px -5px rgb(74 42 116 / 35%);
     animation: fromTop .5s linear both;
     z-index: 99;
 }
@@ -1123,4 +1123,138 @@ header{
 }
 .banner-new .conteudo .wq-btn-new:hover {
     background-color: #4a2a74;
+}
+.wq-titulo-01{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.wq-titulo-01 span{
+    text-transform: uppercase;
+    color: #4a2a74;
+    margin-bottom: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 1em;
+    text-align: center;
+}
+.wq-titulo-01 h1,
+.wq-titulo-01 h2,
+.wq-titulo-01 h3,
+.wq-titulo-01 h4,
+.wq-titulo-01 h5,
+.wq-titulo-01 h6{
+    font-size: 50px;
+    line-height: 1.22727;
+    color: #26272c;
+    font-weight: 500;
+    margin-bottom: 24px;
+    position: relative;
+}
+.wq-titulo-01 h1::after,
+.wq-titulo-01 h2::after,
+.wq-titulo-01 h3::after,
+.wq-titulo-01 h4::after,
+.wq-titulo-01 h5::after,
+.wq-titulo-01 h6::after{
+    display: block;
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: #4a2a74;
+    margin-top: 10px;
+}
+.slick-dots li button:hover, .slick-dots li.slick-active button {
+    background-color: #4a2a74;
+}
+.slick-dots li{
+    position: relative;
+    display: inline-flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+    padding: 0;
+    cursor: pointer;
+}
+
+/******Banner all pages******/
+.wq-bread {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 12px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.wq-bread a {
+    display: inline-block;
+    padding-right: 12px;
+    margin-right: 5px;
+    font-weight: 600;
+    transition: all 0.2s linear;
+    position: relative;
+}
+.wq-bread a::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+.wq-bread a:hover {
+    color: #fff;
+    opacity: 0.7;
+}
+.wq-banner-all-pages-item h1 + p {
+    margin: 0 !important;
+}
+.wq-banner-all-pages-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px 0;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+.wq-banner-all-pages-item .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wq-banner-all-pages-item h1 {
+    color: #fff;
+    letter-spacing: 0.05em;
+    text-transform: inherit;
+    max-width: 660px;
+    font-size: 50px;
+    line-height: 1.22727;
+    font-weight: 500;
+    margin-bottom: 24px;
+    position: relative;
+}
+.wq-btn-ty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wq-btn-ty img {
+    display: block;
+    border-radius: 50%;
+    height: 70px;
+    width: auto;
+    box-shadow: 0 0 0 0 rgb(255 255 255);
+    animation: pulse-white 2s infinite;
 }

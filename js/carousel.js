@@ -1,18 +1,21 @@
-$('.depoimentos-carousel').slick({
+$('.wq-depoimentos-carrousel').slick({
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 300,
+    speed: 500,
     slidesToShow: 1,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    fade: true,
+    cssEase: 'linear'
 });
 
-$('.wq-carousel-depoimentos').slick({
+$('.wq-case-carousel').slick({
     slidesToShow: 2,
     arrows: false,
+    dots: true,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     responsive: [
         {
           breakpoint: 768,
@@ -27,4 +30,27 @@ $('.wq-carousel-depoimentos').slick({
           }
         }
       ]
-    });
+  });
+
+  $('.wq-certificacoes-wrapper').slick({
+    slidesToShow: 5,
+    arrows: false,
+    dots: true,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+  });

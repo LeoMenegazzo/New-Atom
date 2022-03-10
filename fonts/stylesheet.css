@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'geo-wf';
+    src: url('608fffd7f45460d2335e908b9dd9e6ce.woff2') format('woff2'),
+        url('608fffd7f45460d2335e908b9dd9e6ce.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'geo-wf';
+    src: url('5bee1461ef383301f7a7c7dccd40966d.woff2') format('woff2'),
+        url('5bee1461ef383301f7a7c7dccd40966d.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'geo-wf';
+    src: url('6a584a27d8fde17e3806819de7300e78.woff2') format('woff2'),
+        url('6a584a27d8fde17e3806819de7300e78.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'geo-wf';
+    src: url('b89886e713424a52df7296077686ff95.woff2') format('woff2'),
+        url('b89886e713424a52df7296077686ff95.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

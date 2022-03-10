@@ -382,7 +382,8 @@ button {
     margin: 0;
     background-color: transparent;
     border: none;
-    padding-top: 5px;
+    padding-top: 0px;
+    box-shadow: 0 20px 29px 0 rgb(74 42 116 / 50%);
 }
 
 .dropdown:hover .dropdown-menu ul {
