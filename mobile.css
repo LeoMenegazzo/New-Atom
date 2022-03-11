@@ -1,6 +1,9 @@
 /****Responsivo da página****/
 
 @media screen and (max-width: 992px) {
+    section,.wq-tabs-01{
+        padding: 45px 0;
+    }
     .banner-new .conteudo h1 {
         font-size: 35px;
     }
@@ -256,7 +259,7 @@
         font-size: 14px;
     }
     .wq-titulo-01 h1, .wq-titulo-01 h2, .wq-titulo-01 h3, .wq-titulo-01 h4, .wq-titulo-01 h5, .wq-titulo-01 h6 {
-        font-size: 35px;
+        font-size: 30px;
     }
     .wq-cta h2{
         font-size: 35px;
@@ -267,12 +270,32 @@
     }
     .wq-banner-all-pages-item h1 {
         max-width: 100%;
-        font-size: 35px;
+        font-size: 30px;
         line-height: 1.1;
         margin-bottom: 10px;
     }
     .wq-banner-all-pages-item {
         padding: 30px 0;
+    }
+    .wq-titulo-03, .wq-conteudo-textual h2 {
+        font-size: 20px;
+    }
+    .wq-tabs-01 .nav.nav-tabs li a {
+        font-size: 12px;
+        padding: 10px;
+        border-radius: 5px;
+        width: auto;
+        height: auto;
+    }
+    .wq-identidade-01 .row {
+        margin-top: 0px;
+    }
+    .wq-content-all-pages p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .wq-tabs-01 .nav.nav-tabs {
+        justify-content: start;
     }
 }
 
@@ -328,6 +351,16 @@
     .wq-apresentacao-case{
         grid-template-columns: 1fr;
     }
+    .wq-orcamento form .wq-inputs {
+        grid-template-columns: 1fr;
+    }
+    .wq-texto, .wq-imagem{
+        width: 100%;
+    }
+    .wq-imagem figure img {
+        width: 100%;
+    }
+    
 }
 
 
@@ -393,6 +426,12 @@
     .wq-depoimentos-item figure,
     .wq-depoimentos-item figure img{
         height: 100%;
+    }
+    .wq-texto, .wq-imagem{
+        width: 100%;
+    }
+    .wq-imagem figure img {
+        width: 100%;
     }
 }
 
