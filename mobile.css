@@ -4,8 +4,9 @@
     section,.wq-tabs-01{
         padding: 45px 0;
     }
-    p{
+    p,.wq-conteudo-textual p, .wq-conteudo-textual li{
         font-size: 16px;
+        line-height: 20px;
     }
     .banner-new .conteudo h1 {
         font-size: 35px;
@@ -61,7 +62,7 @@
         line-height: 1.3em;
     }
     section{
-        padding: 50px 0;
+        padding: 50px 0!important;
     }
     .wq-titulo-new {
         margin-bottom: 45px;
@@ -280,15 +281,17 @@
     .wq-banner-all-pages-item {
         padding: 30px 0;
     }
-    .wq-titulo-03, .wq-conteudo-textual h2 {
+    .wq-titulo-03, .wq-conteudo-textual h2,
+    .wq-conteudo-textual h3 {
         font-size: 20px;
     }
     .wq-tabs-01 .nav.nav-tabs li a {
-        font-size: 12px;
+        font-size: 11px;
         padding: 10px;
         border-radius: 5px;
         width: auto;
         height: auto;
+        width: 100px;
     }
     .wq-identidade-01 .row {
         margin-top: 0px;
@@ -299,6 +302,13 @@
     }
     .wq-tabs-01 .nav.nav-tabs {
         justify-content: start;
+    }
+    .wq-tabs-foco .nav.nav-tabs li a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .wq-rede-item{
+        height: auto;
     }
 }
 
@@ -364,6 +374,12 @@
         width: 100%;
     }
     .wq-identidade-02 .wq-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .wq-wrapper-tab{
+        grid-template-columns: 1fr;
+    }
+    .wq-lista-01, .wq-lista-03{
         grid-template-columns: 1fr;
     }
 }
@@ -477,6 +493,7 @@
     .wq-identidade-02 .wq-wrapper {
         grid-template-columns: 1fr 1fr;
     }
+    
 }
 
 
