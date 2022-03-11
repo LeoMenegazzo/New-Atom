@@ -4,6 +4,9 @@
     section,.wq-tabs-01{
         padding: 45px 0;
     }
+    p{
+        font-size: 16px;
+    }
     .banner-new .conteudo h1 {
         font-size: 35px;
     }
@@ -262,8 +265,8 @@
         font-size: 30px;
     }
     .wq-cta h2{
-        font-size: 35px;
-        line-height: 1.2;
+        font-size: 30px;
+        line-height: 1.1;
     } 
     .wq-banner-all-pages{
         padding: 0!important;
@@ -360,7 +363,9 @@
     .wq-imagem figure img {
         width: 100%;
     }
-    
+    .wq-identidade-02 .wq-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -433,6 +438,9 @@
     .wq-imagem figure img {
         width: 100%;
     }
+    .wq-identidade-02 .wq-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 
@@ -465,6 +473,9 @@
     }
     .wq-apresentacao-case{
         grid-template-columns: 1fr;
+    }
+    .wq-identidade-02 .wq-wrapper {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
