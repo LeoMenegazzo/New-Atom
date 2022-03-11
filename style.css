@@ -1328,3 +1328,10 @@ header{
     margin: 0 auto 30px;
     text-align: center;
 }
+.wq-cta-03.type-03 .wq-titulo-01 h2::after{
+    background-color: #333;
+}
+
+.wq-orcamento-cta .wq-titulo-new h2 strong{
+    color: #f7cb45;
+}
