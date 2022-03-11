@@ -521,7 +521,7 @@
 .wq-sites_box div {
     text-align: center;
     padding: 15px 10px;
-    background-color: #f1cb59;
+    background-color: #f7cb45;
 }
 .wq-sites_box div h2 {
     font-size: 22px;
@@ -541,7 +541,7 @@
     margin: 0 10px;
 }
 .wq-categoria-templates li a {
-    background-color: #f1cb59;
+    background-color: #f7cb45;
     color: #461d7c;
     border-radius: 30px;
     padding: 12px 22px 8px;
@@ -862,7 +862,7 @@ a.disabled p {
     display: block;
     width: 50%;
     height: 100%;
-    background-color: #f1cb59;
+    background-color: #f7cb45;
     position: absolute;
     top: 0;
     left: 0;
@@ -1035,7 +1035,7 @@ a.disabled p {
     margin: 0 10px;
 }
 .wq-cases-listagem li a {
-    color: #4a316b;
+    color: #4a2a74;
     border-color: #f7cb45;
     background-color: #f7cb45;
     margin: 0 0;
@@ -1054,7 +1054,7 @@ a.disabled p {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: #4a316b;
+    background-color: #4a2a74;
     transition: all 0.2s linear;
     opacity: 0;
 }
@@ -1136,7 +1136,7 @@ a.disabled p {
     background: #f7cb45;
 }
 .wq-new-cta .wq-button-type-01:hover {
-    background-color: #4a316b;
+    background-color: #4a2a74;
 }
 .wq-new-certificacoes .wq-certificacoes-wrapper figure img {
     filter: none !important;
@@ -1159,7 +1159,7 @@ a.disabled p {
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.1em;
-    color: #4a316b;
+    color: #4a2a74;
     max-width: 420px;
     margin-bottom: 15px;
 }
@@ -1206,7 +1206,7 @@ a.disabled p {
     font-size: 48px;
     line-height: 56px;
     letter-spacing: 0.05em;
-    color: #4a316b;
+    color: #4a2a74;
 }
 .wq-img-conteudo p {
     font-weight: 500;
@@ -1214,7 +1214,7 @@ a.disabled p {
     line-height: 19px;
     text-align: left;
     letter-spacing: 0.1em;
-    color: #4a316b;
+    color: #4a2a74;
     margin-bottom: 0;
 }
 .wq-img-conteudo span img {
@@ -1234,7 +1234,7 @@ a.disabled p {
 .wq-04-case-interno .wq-conteudo-01 h3,
 .wq-05-case-interno .wq-conteudo-01 h3,
 .wq-conteudo-02 h2 {
-    color: #2b2b6e;
+    color: #4a2a74;
 }
 .wq-06-case-interno .wq-conteudo-01 h3,
 .wq-02-case-interno h2 {
@@ -1279,7 +1279,7 @@ a.disabled p {
     border-radius: 6px;
 }
 .wq-02-case-interno {
-    background: #4a316b;
+    background: #4a2a74;
     padding: 100px 0;
 }
 .wq-02-case-interno h2 {
@@ -1371,7 +1371,7 @@ a.disabled p {
     line-height: 1.2;
     text-align: justify;
     letter-spacing: 0.1em;
-    color: #4a316b;
+    color: #4a2a74;
     margin-top: 30px;
 }
 .wq-04-case-interno .wq-wrapper .wq-content-04 h3 span {
@@ -1389,7 +1389,7 @@ a.disabled p {
     font-size: 18px;
     line-height: 1.2;
     letter-spacing: 0.1em;
-    color: #4a316b;
+    color: #4a2a74;
     padding-left: 20px;
     position: relative;
     margin-bottom: 5px;
@@ -1555,7 +1555,7 @@ a.disabled p {
     content: "\f137";
 }
 .wq-cta-item {
-    background-color: #4a316b;
+    background-color: #4a2a74;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1603,7 +1603,7 @@ a.disabled p {
     display: block;
     width: 100%;
     height: 250px;
-    background: #2b2b6e;
+    background: #4a2a74;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1619,13 +1619,13 @@ a.disabled p {
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #2b2b6e;
+    color: #4a2a74;
     max-width: 420px;
     margin: 0 auto 50px;
 }
 .wq-interna-sites-sec-01 {
     padding: 70px 0 90px;
-    background: #2b2b6e;
+    background: #4a2a74;
 }
 .wq-interna-sites-sec-01 .row {
     margin-top: 70px;
@@ -1681,7 +1681,7 @@ a.disabled p {
 .wq-sec-conceito-identidade {
     position: relative;
     padding: 100px 0 60px;
-    background: #4a316b;
+    background: #4a2a74;
 }
 .wq-sec-conceito-identidade .container {
     position: relative;
@@ -1742,7 +1742,7 @@ a.disabled p {
     line-height: 28px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #4a316b;
+    color: #4a2a74;
     margin-bottom: 12px;
 }
 .wq-box-identidade-conceito p {
@@ -1771,7 +1771,7 @@ a.disabled p {
     color: #272425;
 }
 .wq-cta-03.wq-model-02 .wq-cta-item h2 {
-    color: #4a316b;
+    color: #4a2a74;
     font-size: 33px;
 }
 .wq-cta-03.wq-model-02 .wq-cta-item {
@@ -1782,12 +1782,12 @@ a.disabled p {
 }
 .wq-cta-03.wq-model-02 .wq-cta-item .wq-button-type-01 {
     margin: 0 0 0 20px;
-    background-color: #4a316b;
+    background-color: #4a2a74;
     color: #fff;
 }
 .wq-cta-03.wq-model-02 .wq-cta-item .wq-button-type-01:hover {
     background-color: #fff;
-    color: #4a316b;
+    color: #4a2a74;
 }
 .wq-cta-03.wq-model-02 {
     padding-bottom: 90px;
@@ -1809,7 +1809,7 @@ a.disabled p {
     max-height: 265px;
 }
 .wq-06-case-interno.wq-ebook-apresentacao {
-    background-color: #2b2b6e;
+    background-color: #4a2a74;
     padding: 100px 0 120px;
     overflow: visible;
 }
@@ -1976,7 +1976,7 @@ figure.wq-img-video figcaption img {
 }
 .wq-sec-redes-sociais .wq-titulo h2,
 .wq-comentarios-redes-sociais .wq-titulo h2 {
-    color: #2b2b6e;
+    color: #4a2a74;
 }
 .wq-sec-redes-sociais .row {
     margin-top: 65px;
@@ -2013,7 +2013,7 @@ figure.wq-img-video figcaption img {
     font-size: 25px;
     line-height: 29px;
     letter-spacing: 0.1em;
-    color: #4a316b;
+    color: #4a2a74;
     position: relative;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -2075,7 +2075,7 @@ figure.wq-img-video figcaption img {
     line-height: 21px;
     text-align: justify;
     letter-spacing: 0.1em;
-    color: #4a316b;
+    color: #4a2a74;
     margin-top: 30px;
 }
 .wq-comentarios-redes-sociais .wq-content-04 h3 span {
@@ -2100,7 +2100,7 @@ figure.wq-img-video figcaption img {
 }
 .wq-identidade-01 {
     padding: 55px 0 35px !important;
-    background-color: #4a316b;
+    background-color: #4a2a74;
 }
 .wq-identidade-01 .wq-titulo h2 {
     max-width: 700px;
@@ -2115,7 +2115,7 @@ figure.wq-img-video figcaption img {
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #f1cb59;
+    color: #f7cb45;
 }
 .wq-identidade-item p {
     font-size: 15px;
@@ -2133,17 +2133,13 @@ figure.wq-img-video figcaption img {
     padding-bottom: 60px;
     position: relative;
 }
-.wq-cta-03.type-03 .wq-cta-item {
-    background: #f7cb45;
-    position: relative;
-    z-index: 3;
-}
+
 .wq-cta-03.type-03 .wq-button-type-01 {
-    background-color: #4a316b;
+    background-color: #4a2a74;
     color: #fff;
 }
 .wq-cta-03.type-03 .wq-titulo h2 {
-    color: #4a316b;
+    color: #4a2a74;
     max-width: 900px;
     font-size: 23px;
     line-height: 1.2;
@@ -2153,7 +2149,7 @@ figure.wq-img-video figcaption img {
     display: block;
     width: 100%;
     height: 60px;
-    background-color: #4a316b;
+    background-color: #4a2a74;
     position: absolute;
     top: 0;
     left: 0;
@@ -2163,7 +2159,7 @@ figure.wq-img-video figcaption img {
     background-color: #f8f8f8a1 !important;
 }
 .wq-papelaria-identidade.type-02 .wq-titulo h2 {
-    color: #4a316b;
+    color: #4a2a74;
 }
 .wq-papelaria-identidade.type-02 .wq-titulo p {
     color: #272425;
@@ -2173,7 +2169,7 @@ figure.wq-img-video figcaption img {
 }
 .wq-identidade-02 {
     padding: 100px 0 80px;
-    background: #2b2b6e;
+    background: #4a2a74;
 }
 .wq-identidade-02 .wq-titulo h2,
 .wq-identidade-02 .wq-titulo p {
@@ -2225,7 +2221,7 @@ figure.wq-img-video figcaption img {
 .wq-tabs-01 .nav.nav-tabs li > div {
 }
 .wq-web-conteudo.wq-conteudo-textual.wq-amarelo {
-    background-color: #f1cb59;
+    background-color: #f7cb45;
 }
 .wq-04-case-interno .wq-wrapper > figure {
     display: flex;
@@ -2253,7 +2249,7 @@ figure.wq-img-video figcaption img {
 }
 .wq-websites_apresentacao-conteudo p strong.destaque {
     color: #4a2a74;
-    background-color: #f1cb59;
+    background-color: #f7cb45;
     padding: 4px 6px;
     display: inline-flex;
 }
@@ -2280,7 +2276,7 @@ figure.wq-img-video figcaption img {
 }
 .wq-websites_apresentacao-btns a:hover {
     color: #4a2a74;
-    background-color: #f1cb59;
+    background-color: #f7cb45;
 }
 .wq-wordpress_templates .wq-titulo h2 {
     color: #4a2a74;

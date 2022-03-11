@@ -372,7 +372,7 @@
     position: relative;
 }
 .wq-cta h2 span{
-    color: #f1cb59;
+    color: #f7cb45;
 }
 .wq-cta .wq-btn-new:hover {
     background-color: #333;
@@ -415,7 +415,7 @@
     font-size: 48px;
     line-height: 56px;
     letter-spacing: 0.05em;
-    color: #4a316b;
+    color: #4a2a74;
 }
 .wq-img-conteudo p {
     font-weight: 500;
@@ -423,7 +423,7 @@
     line-height: 19px;
     text-align: left;
     letter-spacing: 0.1em;
-    color: #4a316b;
+    color: #4a2a74;
     margin-bottom: 0;
 }
 .wq-img-conteudo span img {

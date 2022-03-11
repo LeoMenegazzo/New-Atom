@@ -5,7 +5,7 @@
     background-position: center;
     padding: 60px 0;
     background-image: none!important;
-    background-color: #4a316b;
+    background-color: #4a2a74;
 }
 
 .banner-new-interno .conteudo{
@@ -17,7 +17,7 @@
 }
 
 .banner-new-interno .conteudo span{
-    color: #f1cb59;
+    color: #f7cb45;
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -230,7 +230,7 @@
     display: block;
 }
 .wq-site-item h3{
-    color: #4a316b;
+    color: #4a2a74;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -270,7 +270,7 @@
 }
 .wq-recursos-item h2{
     margin-bottom: 15px;
-    color: #4a316b;
+    color: #4a2a74;
     font-size: 20px;
     line-height: 1.1em;
 }
@@ -288,7 +288,7 @@
     margin-bottom: 30px;
 }
 .wq-recursos-avancados .wq-img-detalhe-01{
-    background-color: #4a316b;
+    background-color: #4a2a74;
 }
 .wq-recursos-avancados .wq-img-detalhe-01 img{
     display: block;
@@ -373,7 +373,7 @@
 }
 
 .wq-autor figure figcaption h2{
-    color: #4a316b;
+    color: #4a2a74;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -439,7 +439,7 @@
     background: #f5f5f5;
 }
 .wq-preco-site .wq-conteudo h2{
-    color: #4a316b;
+    color: #4a2a74;
     font-size: 28px;
     font-weight: bold;
     line-height: 1.2em;
@@ -480,13 +480,13 @@
     text-align: center;
 }
 .wq-estatistica-new-item h2{
-    color: #4a316b;
+    color: #4a2a74;
     font-size: 100px;
     font-weight: 700;
 }
 .wq-estatistica-new-item strong,
 .wq-estatistica-new-item p{
-    color: #4a316b;
+    color: #4a2a74;
     font-size: 25px;
     text-transform: uppercase;
     margin-top: 5px;
@@ -506,7 +506,7 @@
     display: block;
     width: 120px;
     height: 5px;
-    background-color: #4a316b;
+    background-color: #4a2a74;
     margin: 25px 0;
 }
 .banner-new-interno-02 span{
@@ -826,7 +826,7 @@
 }
 span.wq-color-2{
     display: block;
-    color: #4a316b!important;
+    color: #4a2a74!important;
 }
 .banner-new-interno-02 h4{
     color: #000;
@@ -926,7 +926,7 @@ span.wq-color-2{
 .wq-otimizacao-seo form > span,
 .wq-titulo-sec span{
     display: block;
-    color: #4a316b;
+    color: #4a2a74;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
