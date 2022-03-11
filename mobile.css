@@ -310,6 +310,39 @@
     .wq-rede-item{
         height: auto;
     }
+    .wq-cases-listagem .btn-header {
+        font-size: 11px;
+        padding: 7px 8px!important;
+        margin: 5px;
+    }
+    .wq-cases-listagem .btn-header span{
+        display: none;
+    }
+    .wq-04-case-interno .wq-wrapper .wq-content-04{
+        padding: 0;
+    }
+    .wq-04-case-interno .wq-wrapper .wq-content-04 p{
+        font-size: 17px;
+    }
+    .wq-04-case-interno.wq-site-interno .wq-content-04>div::before{
+        display: none;
+    }
+    .wq-04-case-interno .wq-wrapper > figure img {
+        height: auto;
+        width: 100%;
+    }
+    .wq-ebook-img img {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+    .wq-lista-03 li h3 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
 }
 
 
@@ -382,6 +415,17 @@
     .wq-lista-01, .wq-lista-03{
         grid-template-columns: 1fr;
     }
+    .wq-listagem-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .wq-04-case-interno .wq-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .wq-04-case-interno .wq-wrapper .wq-content-04 > div{
+        width: auto;
+    }
+
 }
 
 
@@ -457,6 +501,19 @@
     .wq-identidade-02 .wq-wrapper {
         grid-template-columns: 1fr 1fr;
     }
+    .wq-listagem-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .wq-04-case-interno .wq-wrapper {
+        grid-template-columns: 185px 1fr;
+        gap: 30px;
+    }
+    .wq-04-case-interno.wq-site-interno .wq-content-04>div{
+        width: auto;
+    }
+    .wq-01-case-interno .wq-apresentacao-case{
+        grid-template-columns: 1fr 1fr!important;
+    }
 }
 
 
@@ -493,7 +550,22 @@
     .wq-identidade-02 .wq-wrapper {
         grid-template-columns: 1fr 1fr;
     }
-    
+    .wq-listagem-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .wq-04-case-interno .wq-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .wq-04-case-interno.wq-site-interno .wq-content-04>div::before{
+        display:none;
+    }
+    .wq-04-case-interno.wq-site-interno .wq-content-04>div{
+        width: auto;
+    }
+    .wq-01-case-interno .wq-apresentacao-case {
+        grid-template-columns: 1fr 300px;
+    }
 }
 
 
