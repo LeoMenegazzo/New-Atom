@@ -11,10 +11,10 @@ body {
 }
 
 p {
-    color: #111;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 20px;
+    color: #424242;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.3em;
     margin-bottom: 13px;
 }
 
@@ -137,7 +137,6 @@ header{
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2em;
-    letter-spacing: -2.7px;
     margin-bottom: 20px;
 }
 .banner-new .conteudo h1 span{
@@ -242,7 +241,7 @@ header{
 }
 .wq-titulo-new h2{
     font-size: 50px;
-    line-height: 1.22727;
+    line-height: 1.1;
     color: #26272c;
     font-weight: 500;
     margin-bottom: 5px;
@@ -305,7 +304,12 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 10px 10px 35px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    height: auto;
+    overflow: hidden;
 }
 .wq-funcionalidades-item figure img{
     display: block;
@@ -323,10 +327,6 @@ header{
     text-align: center;
 }
 .wq-funcionalidades-item p{
-    color: #000;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.7em;
     text-align: center;
 }
 
@@ -1347,7 +1347,11 @@ header{
 .wq-cta-item .wq-titulo-new,
 .wq-identidade-01 .wq-titulo-new,
 .wq-papelaria-identidade .wq-titulo-new,
-.wq-cta-seo .wq-titulo-new{
+.wq-cta-seo .wq-titulo-new,
+.wq-apresentacao-redes-sociais .wq-titulo-new,
+.wq-cta-item .wq-titulo-new,
+.wq-02-case-interno.wq-iterno-site .wq-titulo-new,
+.wq-02-case-interno-new .wq-titulo-new{
     align-items: center;
     text-align: center;
 }
@@ -1357,17 +1361,47 @@ header{
 .wq-identidade-02 .wq-titulo-new span,
 .wq-identidade-02 .wq-titulo-new h2 strong,
 .wq-papelaria-identidade .wq-titulo-new span,
-.wq-papelaria-identidade .wq-titulo-new h2 strong{
+.wq-papelaria-identidade .wq-titulo-new h2 strong,
+.wq-06-case-interno .wq-titulo-new span,
+.wq-06-case-interno .wq-titulo-new h2 strong,
+.wq-apresentacao-redes-sociais .wq-titulo-new span,
+.wq-apresentacao-redes-sociais .wq-titulo-new h2 strong,
+.wq-sec-conceito-identidade .wq-titulo-new span,
+.wq-sec-conceito-identidade .wq-titulo-new h2 strong,
+.wq-cta-item .wq-titulo-new span,
+.wq-cta-item .wq-titulo-new h2 strong,
+.wq-02-case-interno.wq-iterno-site .wq-titulo-new span,
+.wq-02-case-interno.wq-iterno-site .wq-titulo-new h2 strong,
+.wq-02-case-interno-new .wq-titulo-new span,
+.wq-02-case-interno-new .wq-titulo-new h2 strong{
     color: #f7cb45;
 }
+
 .wq-identidade-01 .wq-titulo-new h2,
 .wq-identidade-01 .wq-titulo-new p,
 .wq-identidade-02 .wq-titulo-new h2,
 .wq-identidade-02 .wq-titulo-new p,
 .wq-papelaria-identidade .wq-titulo-new h2,
-.wq-papelaria-identidade .wq-titulo-new p{
+.wq-papelaria-identidade .wq-titulo-new p,
+.wq-06-case-interno .wq-titulo-new h2,
+.wq-06-case-interno .wq-titulo-new p,
+.wq-apresentacao-redes-sociais .wq-titulo-new h2,
+.wq-apresentacao-redes-sociais .wq-titulo-new p,
+.wq-sec-conceito-identidade .wq-titulo-new h2,
+.wq-sec-conceito-identidade .wq-titulo-new p,
+.wq-cta-item .wq-titulo-new h2,
+.wq-cta-item .wq-titulo-new p,
+.wq-02-case-interno.wq-iterno-site .wq-titulo-new h2,
+.wq-02-case-interno.wq-iterno-site .wq-titulo-new p,
+.wq-02-case-interno-new .wq-titulo-new h2,
+.wq-02-case-interno-new .wq-titulo-new p{
     color: #fff;
 }
+.wq-02-case-interno.wq-iterno-site .wq-titulo-new P,
+.wq-cta-item .wq-titulo-new p{
+    max-width: 900px;
+}
+
 .wq-identidade-01.wq-dark .wq-titulo-new h2,
 .wq-identidade-01.wq-dark .wq-titulo-new p{
     color: #26272c;
