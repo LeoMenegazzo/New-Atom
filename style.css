@@ -969,7 +969,7 @@ header{
 
 .wq-titulo-new-02 p{
     text-align: center;
-    color: #313C56;
+    color: #212121;
     font-size: 18px;
     width: 80%;
     max-width: 100%;
@@ -983,7 +983,7 @@ header{
 }
 .wq-btn-new-03:hover{
     background-color: #fff;
-    color: #004FC5!important;
+    color: #4a2a74!important;
 }
 .wq-modelos-sites .row > div{
     margin-bottom: 30px;
@@ -1351,7 +1351,11 @@ header{
 .wq-apresentacao-redes-sociais .wq-titulo-new,
 .wq-cta-item .wq-titulo-new,
 .wq-02-case-interno.wq-iterno-site .wq-titulo-new,
-.wq-02-case-interno-new .wq-titulo-new{
+.wq-02-case-interno-new .wq-titulo-new,
+.wq-preco-site .wq-titulo-new,
+.wq-recursos-avancados .wq-titulo-new,
+.wq-modelos-sites .wq-titulo-new,
+.wq-site-rapido-02 .wq-titulo-new{
     align-items: center;
     text-align: center;
 }
@@ -1373,7 +1377,9 @@ header{
 .wq-02-case-interno.wq-iterno-site .wq-titulo-new span,
 .wq-02-case-interno.wq-iterno-site .wq-titulo-new h2 strong,
 .wq-02-case-interno-new .wq-titulo-new span,
-.wq-02-case-interno-new .wq-titulo-new h2 strong{
+.wq-02-case-interno-new .wq-titulo-new h2 strong,
+.wq-modelos-sites .wq-titulo-new span,
+.wq-modelos-sites .wq-titulo-new h2 strong{
     color: #f7cb45;
 }
 
@@ -1394,14 +1400,19 @@ header{
 .wq-02-case-interno.wq-iterno-site .wq-titulo-new h2,
 .wq-02-case-interno.wq-iterno-site .wq-titulo-new p,
 .wq-02-case-interno-new .wq-titulo-new h2,
-.wq-02-case-interno-new .wq-titulo-new p{
+.wq-02-case-interno-new .wq-titulo-new p,
+.wq-modelos-sites .wq-titulo-new h2,
+.wq-modelos-sites .wq-titulo-new p{
     color: #fff;
 }
+
 .wq-02-case-interno.wq-iterno-site .wq-titulo-new P,
 .wq-cta-item .wq-titulo-new p{
     max-width: 900px;
 }
-
+.wq-site-rapido-01 .wq-titulo-new p{
+    max-width: 100%;
+}
 .wq-identidade-01.wq-dark .wq-titulo-new h2,
 .wq-identidade-01.wq-dark .wq-titulo-new p{
     color: #26272c;
@@ -1445,4 +1456,7 @@ header{
 }
 .wq-cta .wq-btn-new:hover {
     background-color: #333;
+}
+.wq-preco-site .wq-titulo-new{
+    margin-top: 60px;
 }
