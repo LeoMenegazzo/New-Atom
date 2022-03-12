@@ -342,6 +342,20 @@
         font-size: 20px;
         margin-bottom: 0px;
     }
+    .wq-btn-redes-sociais {
+        width: 40px;
+        height: 40px;
+        right: 10px;
+        bottom: 10px;
+    }
+    .wq-btn-redes-sociais img{
+        height: 20px;
+    }
+    #redes-sociais .modal-content .wq-midias-sociais li a {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
 }
 
 
@@ -426,6 +440,10 @@
     }
     .wq-cases-de-sucesso .wq-wrapper {
         grid-template-columns: 1fr;
+    }
+    #redes-sociais .modal-content .close {
+        right: 10px;
+        top: -80px;
     }
 }
 
@@ -517,6 +535,10 @@
     }
     .wq-cases-de-sucesso .wq-wrapper {
         grid-template-columns: 1fr;
+    }
+    #redes-sociais .modal-content .close {
+        right: 10px;
+        top: -80px;
     }
 }
 
