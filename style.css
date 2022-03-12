@@ -1414,12 +1414,16 @@ header{
     max-width: 100%;
 }
 .wq-identidade-01.wq-dark .wq-titulo-new h2,
-.wq-identidade-01.wq-dark .wq-titulo-new p{
+.wq-identidade-01.wq-dark .wq-titulo-new p,
+.wq-cta-item.type-02 .wq-titulo-new h2,
+.wq-cta-item.type-02 .wq-titulo-new p{
     color: #26272c;
     max-width: 900px;
 }
 .wq-identidade-01.wq-dark .wq-titulo-new span,
-.wq-identidade-01.wq-dark .wq-titulo-new strong{
+.wq-identidade-01.wq-dark .wq-titulo-new strong,
+.wq-cta-item.type-02 .wq-titulo-new span,
+.wq-cta-item.type-02 .wq-titulo-new strong{
     color: #4a2a74;
 }
 
