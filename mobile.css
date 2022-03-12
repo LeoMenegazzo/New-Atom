@@ -46,7 +46,6 @@
     
     .wq-titulo-new h2 {
         font-size: 25px!important;
-        text-align: center;
     }
     .wq-sites-apresentacao-item figure img {
         height: 85px;
@@ -425,7 +424,9 @@
     .wq-04-case-interno .wq-wrapper .wq-content-04 > div{
         width: auto;
     }
-
+    .wq-cases-de-sucesso .wq-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -513,6 +514,9 @@
     }
     .wq-01-case-interno .wq-apresentacao-case{
         grid-template-columns: 1fr 1fr!important;
+    }
+    .wq-cases-de-sucesso .wq-wrapper {
+        grid-template-columns: 1fr;
     }
 }
 

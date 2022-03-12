@@ -597,6 +597,9 @@
     display: grid;
     grid-template-columns: 65px 1fr;
     gap: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px #d2cccc;
 }
 .wq-detalhe-plataforma-item figure img{
     display: block;
@@ -622,9 +625,8 @@
     margin-bottom: 30px;
 }
 .wq-detalhe-plataforma .row{
-    width: 1024px;
     max-width: 100%;
-    margin: 0 auto  50px;
+    margin: 40px auto  50px;
 }
 .wq-passo-a-passo .wq-passo-a-passo-item .row{
     width: 1024px;
@@ -659,7 +661,6 @@
 .wq-passo-a-passo .wq-passo-a-passo-item .wq-titulo-new h2{
     color: #172333;
     font-size: 36px;
-    font-weight: 300;
     line-height: 1.1em;
     text-transform: initial;
 }
@@ -1070,9 +1071,8 @@ span.wq-color-2{
 }
 
 .wq-cases-de-sucesso figure{
-    width: 900px;
     max-width: 100%;
-    margin: 0 auto 35px;
+    margin: 0 auto;
 }
 .wq-cases-de-sucesso figure img{
     display: block;
@@ -1168,4 +1168,51 @@ span.wq-color-2{
 }
 .wq-img-detalhe-01{
     display: none;
+}
+
+.banner-new .wq-detalhe svg{
+    fill: #4a2a74!important;
+}
+.wq-seo-consultoria .wq-detalhe-plataforma-item{
+    margin-bottom: 30px;
+}
+.wq-seo-consultoria .wq-detalhe-plataforma-item:last-child{
+    margin-bottom: 0;
+}
+.wq-cases-de-sucesso .wq-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+
+
+.banner-new + .wq-identidade-01,
+.banner-new + .wq-sites-apresentacao{
+    background-color: #4a2a74;
+}
+
+.banner-new + .wq-identidade-01 .wq-identidade-item h3 {
+    color: #f7cb45;
+}
+.banner-new + .wq-identidade-01 .wq-titulo-01{
+    max-width: 900px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.banner-new + .wq-identidade-01 .wq-identidade-item p,
+.banner-new + .wq-identidade-01 .wq-titulo-01 h2{
+    color: #fff;
+}
+
+.banner-new + .wq-sites-apresentacao .wq-titulo-new strong,
+.banner-new + .wq-sites-apresentacao .wq-titulo-new span,
+.banner-new + .wq-sites-apresentacao .wq-sites-apresentacao-item h3{
+    color: #f7cb45;
+}
+.banner-new + .wq-sites-apresentacao .wq-titulo-new h2,
+.banner-new + .wq-sites-apresentacao .wq-titulo-new p,
+.banner-new + .wq-sites-apresentacao .wq-sites-apresentacao-item p{
+    color: #fff;
 }

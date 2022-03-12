@@ -14,7 +14,7 @@ p {
     color: #111;
     font-weight: 400;
     font-size: 19px;
-    line-height: 26px;
+    line-height: 20px;
     margin-bottom: 13px;
 }
 
@@ -182,7 +182,7 @@ header{
 }
 
 .banner-new{
-    height: calc(100vh - 95px);
+    height: calc(100vh - 75px);
     background-size: 85%;
     background-position: right bottom;
     display: flex;
@@ -206,7 +206,7 @@ header{
     width: calc(100% + 1.3px);
     position: relative;
     left: 50%;
-    fill: #f4f7fc;
+    fill: #fff;
 }
 .banner-new .wq-detalhe svg path{
     transform-origin: center;
@@ -220,21 +220,20 @@ header{
 
 /******wq-sites-apresentacao******/
 .wq-sites-apresentacao{
-    background-color: #f4f7fc;
     padding: 50px 0 70px;
 }
 
 .wq-titulo-new{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .wq-titulo-new span{
     text-transform: uppercase;
     color: #4a2a74;
-    margin-bottom: 26px;
+    margin-bottom: 10px;
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 14px;
@@ -246,20 +245,19 @@ header{
     line-height: 1.22727;
     color: #26272c;
     font-weight: 500;
-    margin-bottom: 24px;
+    margin-bottom: 5px;
     position: relative;
 }
 .wq-titulo-new h2 strong{
     color:#4a2a74;
 }
 .wq-titulo-new p{
-    text-align: center;
     color: #424242;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.8em;
-    margin-top: 20px;
     max-width: 600px;
+    margin-bottom: 0;
 }
 .wq-sites-apresentacao-item{
     display: flex;
@@ -296,6 +294,7 @@ header{
 /******wq-funcionalidades******/
 .wq-funcionalidades{
     padding: 70px 0;
+    background: #f4f7fc;
 }
 
 .wq-funcionalidades .row > div{
@@ -491,7 +490,7 @@ header{
 }
 .wq-orcamento-cta .wq-titulo-new h2{
     position: relative;
-    max-width: 500px;
+    max-width: 700px;
     text-align: center;
 }
 
@@ -935,7 +934,8 @@ header{
 .wq-titulo-new-02 span{
     color: #956da9;
     font-size: 15px;
-    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -1033,7 +1033,7 @@ header{
     padding: 25px;
 }
 .wq-planos-item-body h3{
-    color: #00444f;
+    color: #212121;
     font-size: 38px;
     font-weight: 800;
     text-align: center;
@@ -1334,4 +1334,81 @@ header{
 
 .wq-orcamento-cta .wq-titulo-new h2 strong{
     color: #f7cb45;
+}
+.wq-orcamento-cta .wq-titulo-new,
+.wq-site-do-mes .wq-titulo-new,
+.wq-portifolio .wq-titulo-new,
+.wq-faq-new .wq-titulo-new,
+.wq-clientes .wq-titulo-new,
+.wq-planos-sec .wq-titulo-new,
+.wq-orcamento .wq-titulo-new,
+.wq-vendas-online .wq-titulo-new,
+.wq-identidade-01 .wq-titulo-new,
+.wq-cta-item .wq-titulo-new,
+.wq-identidade-01 .wq-titulo-new,
+.wq-papelaria-identidade .wq-titulo-new,
+.wq-cta-seo .wq-titulo-new{
+    align-items: center;
+    text-align: center;
+}
+
+.wq-identidade-01 .wq-titulo-new span,
+.wq-identidade-01 .wq-titulo-new strong,
+.wq-identidade-02 .wq-titulo-new span,
+.wq-identidade-02 .wq-titulo-new h2 strong,
+.wq-papelaria-identidade .wq-titulo-new span,
+.wq-papelaria-identidade .wq-titulo-new h2 strong{
+    color: #f7cb45;
+}
+.wq-identidade-01 .wq-titulo-new h2,
+.wq-identidade-01 .wq-titulo-new p,
+.wq-identidade-02 .wq-titulo-new h2,
+.wq-identidade-02 .wq-titulo-new p,
+.wq-papelaria-identidade .wq-titulo-new h2,
+.wq-papelaria-identidade .wq-titulo-new p{
+    color: #fff;
+}
+.wq-identidade-01.wq-dark .wq-titulo-new h2,
+.wq-identidade-01.wq-dark .wq-titulo-new p{
+    color: #26272c;
+    max-width: 900px;
+}
+.wq-identidade-01.wq-dark .wq-titulo-new span,
+.wq-identidade-01.wq-dark .wq-titulo-new strong{
+    color: #4a2a74;
+}
+
+.wq-otimizacao-seo .wq-titulo-new p{
+    max-width: 100%;
+    line-height: 1.2;
+}
+
+/**Call to action**/
+
+.wq-cta {
+    padding: 40px 0;
+    background: #4a2a74;
+}
+.cta-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.wq-cta h2 {
+    color: #fff;
+    margin: 0 auto 30px;
+    max-width: 700px;
+    font-size: 50px;
+    line-height: 1.22727;
+    font-weight: 500;
+    margin-bottom: 24px;
+    position: relative;
+}
+.wq-cta h2 span{
+    color: #f7cb45;
+}
+.wq-cta .wq-btn-new:hover {
+    background-color: #333;
 }

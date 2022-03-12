@@ -1,6 +1,6 @@
 .wq-content-all-pages {
     padding: 70px 0 0;
-    background: #f8f8f8a1 !important;
+    background: #fff;
 }
 .wq-content-all-pages .container {
     position: relative;
@@ -245,20 +245,20 @@
     background-color: #f4f7fc;
 }
 
-.wq-banner-all-pages + .wq-identidade-01{
+.banner-new + .wq-identidade-01{
     background-color: #fff;
 }
 
-.wq-banner-all-pages + .wq-identidade-01 .wq-identidade-item h3 {
+.banner-new + .wq-identidade-01 .wq-identidade-item h3 {
     color: #4a2a74;
 }
-.wq-banner-all-pages + .wq-identidade-01 .wq-titulo-01{
+.banner-new + .wq-identidade-01 .wq-titulo-01{
     max-width: 900px;
     margin: 0 auto 30px;
     text-align: center;
 }
-.wq-banner-all-pages + .wq-identidade-01 .wq-identidade-item p,
-.wq-banner-all-pages + .wq-identidade-01 .wq-titulo-01 h2{
+.banner-new + .wq-identidade-01 .wq-identidade-item p,
+.banner-new + .wq-identidade-01 .wq-titulo-01 h2{
     color: #26282d;
 }
 
